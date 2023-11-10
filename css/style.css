@@ -26,6 +26,21 @@ main #portf .row .content_box{
     background-color: chocolate
 }
 
+/* About */
+main #about .row .content{
+    background-color: green;
+    height: 120px;
+}
+
+main #about .row .content_text{
+    background-color: green;
+    height: 300px;
+}
+
+main #about .row .content_button{
+    background-color: green;
+    height: 90px;
+}
 
 /* FOOTER */
 
