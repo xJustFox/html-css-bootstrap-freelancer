@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* HEADER */
+header .row .content{
+    background-color: aqua;
+}
+
+/* MAIN */
+main .row .content{
+    height: 300px;
+}
+
+/* FOOTER */
+
+.height_75{
+    height: 75px;
+}
+
+/* BACKGROUND COLOR */
+
+.bg_darkgray{
+    background-color: #2C3E50;
+}
+
+.bg_darkgray2{
+    background-color: #3A546D;
+}
+
+.bg_aquagreen{
+    background-color: #1ABC9C;
+}
