@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* HEADER */
+                /* HEADER */
 header .row .content{
     background-color: aqua;
+}
+
+.height_75{
+    height: 75px;
 }
 
                 /* MAIN */
@@ -48,10 +52,17 @@ main #contact .row .content{
     height: 700px;
 }
 
-/* FOOTER */
+                /* FOOTER */
 
-.height_75{
-    height: 75px;
+/* Info */
+footer #info .row .content_text{
+    background-color: cadetblue;
+    height: 100px;
+}
+
+footer #copyright .row .content_text{
+    background-color: cadetblue;
+    height: 50px;
 }
 
 /* BACKGROUND COLOR */
