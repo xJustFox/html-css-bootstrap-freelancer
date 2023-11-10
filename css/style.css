@@ -8,10 +8,24 @@ header .row .content{
     background-color: aqua;
 }
 
-/* MAIN */
-main .row .content{
+                /* MAIN */
+
+/* Start Bootstrap */
+main #start .row .content{
     height: 300px;
 }
+
+/* Portfolio */
+main #portf .row .content{
+    height: 120px;
+    background-color: chocolate
+}
+
+main #portf .row .content_box{
+    height: 200px;
+    background-color: chocolate
+}
+
 
 /* FOOTER */
 
