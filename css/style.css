@@ -3,21 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-                /* HEADER */
-header .row .content{
-    background-color: aqua;
-}
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+                /* HEADER */
 .height_75{
     height: 75px;
+}
+
+.my-navlist{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.my-navlist li{
+    padding: 5px 15px;
+}
+
+.my-navlist li a{
+    text-decoration: none;
+    color: white;
 }
 
                 /* MAIN */
 
 /* Start Bootstrap */
-main #start .row .content{
-    height: 300px;
-}
 
 /* Portfolio */
 main #portf .row .content{
@@ -64,6 +79,38 @@ footer #copyright .row .content_text{
     background-color: cadetblue;
     height: 50px;
 }
+
+/* Breack Star */
+.star{
+    margin: 0 auto;
+    color: white;
+    font-size: 50px;
+    max-width: 205px;
+    position: relative;
+}
+
+.star:before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 5px;
+    border-radius: 20px;
+    background: white;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+.star:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 5px;
+    border-radius: 20px;
+    background: white;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
 
 /* BACKGROUND COLOR */
 
