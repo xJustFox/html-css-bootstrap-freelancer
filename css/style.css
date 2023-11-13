@@ -35,15 +35,6 @@ body{
 /* Start Bootstrap */
 
 /* Portfolio */
-main #portf .row .content{
-    height: 120px;
-    background-color: chocolate
-}
-
-main #portf .row .content_box{
-    height: 200px;
-    background-color: chocolate
-}
 
 /* About */
 main #about .row .content{
@@ -111,6 +102,37 @@ footer #copyright .row .content_text{
     top: 50%;
     position: absolute;
   }
+/* star black */
+.star-black{
+    margin: 0 auto;
+    font-size: 50px;
+    max-width: 205px;
+    position: relative;
+}
+
+.star-black:before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 5px;
+    border-radius: 20px;
+    background: black;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+.star-black:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 5px;
+    border-radius: 20px;
+    background: black;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+
 
 /* BACKGROUND COLOR */
 
