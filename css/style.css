@@ -37,25 +37,17 @@ body{
 /* Portfolio */
 
 /* About */
-main #about .row .content{
-    background-color: green;
-    height: 120px;
-}
-
-main #about .row .content_text{
-    background-color: green;
-    height: 300px;
-}
-
-main #about .row .content_button{
-    background-color: green;
-    height: 90px;
+main #about .content_button button:hover{
+    background-color: rgba(128, 128, 128, 0.3);
 }
 
 /* Contact Me */
-main #contact .row .content{
-    background-color: darkmagenta;
-    height: 700px;
+main #contact .content-input form div{
+    margin-bottom: 10px;
+}
+
+main #contact .content-input form div button:hover{
+    background-color: #1abc9cbb;
 }
 
                 /* FOOTER */
